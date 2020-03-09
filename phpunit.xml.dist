@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <phpunit
 	bootstrap="tests/bootstrap.php"
+	stopOnFailure="false"
+	verbose="true"
 	backupGlobals="false"
 	colors="true"
 	convertErrorsToExceptions="true"
@@ -8,9 +10,8 @@
 	convertWarningsToExceptions="true"
 	>
 	<testsuites>
-		<testsuite>
+		<testsuite name="JSPN Unit Tests">
 			<directory prefix="test-" suffix=".php">./tests/</directory>
-			<exclude>./tests/test-sample.php</exclude>
 		</testsuite>
 	</testsuites>
 </phpunit>

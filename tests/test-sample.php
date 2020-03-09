@@ -2,7 +2,7 @@
 /**
  * Class SampleTest
  *
- * @package Jspn
+ * @package Jspn_Plugin
  */
 
 /**

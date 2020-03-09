@@ -2,7 +2,7 @@
 /**
  * PHPUnit bootstrap file
  *
- * @package Jspn
+ * @package Jspn_Plugin
  */
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
