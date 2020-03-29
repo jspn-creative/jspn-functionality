@@ -94,6 +94,8 @@ if( !class_exists( 'JSPN' ) ) {
 			
 			// require_once JSPN_PLUGIN_DIR . 'includes/class-jspn-settings.php';
 			require_once JSPN_PLUGIN_DIR . 'includes/class-jspn-remove-admin-bar.php';
+			require_once JSPN_PLUGIN_DIR . 'includes/class-jspn-home-widget.php';
+			require_once JSPN_PLUGIN_DIR . 'includes/class-jspn-dupe-pages.php';
 			require_once JSPN_PLUGIN_DIR . 'includes/class-jspn-clean-up-head.php';
 			require_once JSPN_PLUGIN_DIR . 'includes/class-jspn-long-url-spam.php';
 			require_once JSPN_PLUGIN_DIR . 'includes/class-jspn-add-mime-types.php';

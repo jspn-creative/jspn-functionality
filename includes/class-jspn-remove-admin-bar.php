@@ -1,6 +1,6 @@
 <?php
 /**
- * Remove Admin bar for lodge members
+ * Remove Admin bar
  * 
  * @package     JSPN
  * @subpackage  JSPN/includes

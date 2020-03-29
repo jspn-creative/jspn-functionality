@@ -18,6 +18,8 @@ class JSPN_Init {
 	public function __construct() {
 
 		//$add_settings				= new JSPN_Add_Settings(); // Adds settings page
+		$dupe_pages					= new JSPN_Dupe_Pages();
+		$home_widget				= new JSPN_Home_Widget();
 		$remove_admin_bar			= new JSPN_Remove_Admin_Bar();
 		$clean_up_head				= new JSPN_Clean_Up_Head();
 		$long_url_spam				= new JSPN_Long_URL_Spam(); // If comment author's URL is long, automatically marks as spam
